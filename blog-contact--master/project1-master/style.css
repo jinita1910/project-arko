@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Poppins|Roboto&display=swap');
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* 
+font-family: 'Poppins', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+body {
+    background: #eeeeee;
+}
+
+.form-inline .fa-facebook:hover {
+    color: #3b5998;
+}
+
+.form-inline .fa-instagram:hover {
+    color: #3f729b;
+}
+
+.form-inline .fa-linkedin:hover {
+    color: #007bb6;
+}
+
+.form-inline .fa-youtube:hover {
+    color: #bb0000;
+}
+
+
+/* 
+------content -----------
+****** 1. srjTopNav 
+*/
+
+#srjTopNav {
+    background: #1c1b3b;
+}
+
+#srjTopNav .fab {
+    padding-right: 1rem;
+}
+
+
+/* end srjTopNav */
+
+#srjPrimaryMenu {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #ffffff;
+    padding: 7px;
+    background-attachment: fixed;
+}
+
+#srjPrimaryMenu a {
+    color: #333333;
+}
+
+.srjIcons .fa-facebook {
+    color: #4267b2;
+    font-size: 45px;
+    padding-right: 20px;
+}
+
+
+/* contact page start */
+
+.srjIcons .fa-twitter {
+    color: #5da9dd;
+    font-size: 45px;
+    padding-right: 20px;
+}
+
+.srjIcons .fa-instagram {
+    color: #d74da3;
+    font-size: 45px;
+    padding-right: 20px;
+}
+
+.srjIcons .fa-linkedin {
+    color: #0077b5;
+    font-size: 45px;
+    padding-right: 20px;
+}
+
+.srjIcons .fa-facebook:hover {
+    color: #4267b2;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.srjIcons .fa-twitter:hover {
+    color: #5da9dd;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.srjIcons .fa-instagram:hover {
+    color: #d74da3;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.srjIcons .fa-linkedin:hover {
+    color: #0077b5;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.srjImageAndContent {
+    width: 100%;
+    height: 500;
+}
+
+.srjImageAndContent .img-fluid {
+    width: 100%;
+    height: 100%;
+}
+
+.srjImageAndContent .srjTitle1 {
+    font-family: 'Open Sans';
+    height: 50px;
+}
+
+.srjImageAndContent .srjSubTitle1 {
+    font-family: 'Poppins';
+}
+
+.srjImageAndContent .srjContact .emoji {
+    height: 1em;
+    width: 1em;
+}
+
+.srjImageAndContent .srjContact a {
+    text-decoration: none;
+    color: crimson;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+.srjMsgButton .btn {
+    font-family: "Poppins";
+    font-size: 15px;
+}
+
+.srjImageAndContent .srjTitle2 {
+    font-size: 30px;
+    font-family: 'Open Sans';
+    margin-top: 30px;
+    height: 50px;
+}
+
+.srjMap {
+    margin-top: 5%;
+}
+
+.srjMoreContact {
+    width: 100%;
+    text-align: center;
+    margin-top: 4%;
+    height: 150px;
+}
+
+.srjMoreContact .srjText {
+    font-size: 40px;
+    height: 50px;
+}
+
+.srjMoreContact .srjIcons a {
+    margin-top: 30px;
+}
+
+@media screen and (max-width:552px) {
+    .srjTitle1 {
+        text-align: center;
+    }
+    .srjTitle2 {
+        text-align: center;
+    }
+}
+
+
+/* --------- contact end--------- */
+
+
+/* ------ blog page start---------*/
+
+#srjBlog .srjBlogHeading {
+    font-family: 'Roboto';
+}
+
+#srjBlog span {
+    color: #999;
+}
+
+#srjBlog .col-md-6 {
+    padding-bottom: 10vh;
+}
+
+#srjBlog .col-md-3 {
+    background: white;
+    ;
+}
+
+#srjBlog .srjContactUs {
+    max-height: 100px;
+    background: white;
+}
+
+#srjBlog .srjContactUs span {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Poppins";
+    padding-top: 30vh;
+}
+
+#srjBlog .srjContactUs .fab {
+    font-size: 40px;
+    border-radius: 3px;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+#srjBlog .srjContactUs .fa-facebook-square {
+    background: white;
+    color: #4267b2;
+    padding-right: 10px;
+}
+
+#srjBlog .srjContactUs .fa-twitter-square {
+    background: white;
+    color: #5da9dd;
+    padding-right: 10px;
+}
+
+#srjBlog .srjContactUs .fa-instagram {
+    background: white;
+    color: #d74da3;
+    padding-right: 10px;
+}
+
+#srjBlog .srjContactUs .fa-linkedin {
+    background: white;
+    color: #0077b5;
+}
+
+#srjBlog .srjRecentBlog {
+    min-height: 100vh;
+}
+
+.srjRecentBlog .srjRecentBlogHeading a {
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    line-height: 5vh;
+    color: #999;
+    text-decoration: none;
+}
+
+#srjBlog .srjRecentBlog .col-md-4 .img-fluid {
+    height: 60px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#srjBlog .srjRecentBlog .col-md-8 a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* blog end */
+
+
+/* single-blog page start */
+#srjBlogBanner .img-fluid{
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+
+#srjSingleBlogContent .srjBlogHeading {
+    font-family: 'Roboto';
+}
+
+#srjSingleBlogContent span {
+    color: #999;
+}
